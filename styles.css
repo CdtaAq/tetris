@@ -1,0 +1,55 @@
+.game-container {
+    text-align: center;
+}
+
+.game-board {
+    width: 300px;
+    height: 600px;
+    border: 2px solid #000;
+    margin: 0 auto;
+}
+
+.score {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.start-button {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Customize the Tetromino colors */
+
+.square {
+    width: 30px;
+    height: 30px;
+}
+
+.square.I {
+    background-color: #00FFFF;
+}
+
+.square.J {
+    background-color: #0000FF;
+}
+
+.square.L {
+    background-color: #FFA500;
+}
+
+.square.O {
+    background-color: #FFFF00;
+}
+
+.square.S {
+    background-color: #00FF00;
+}
+
+.square.T {
+    background-color: #800080;
+}
+
+.square.Z {
+    background-color: #FF0000;
+}
